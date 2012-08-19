@@ -65,7 +65,7 @@ function initPushwoosh()
 	var pushNotification = window.plugins.pushNotification;
 	pushNotification.onDeviceReady();
 	
-	pushNotification.registerDevice({alert:true, badge:true, sound:true, appid:"PUSHWOOSH_APP_CODE", appname:"APP_NAME"},
+	pushNotification.registerDevice({alert:true, badge:true, sound:true, appid:"D7467-D37BA", appname:"Hackathon"},
 									function(status) {
 									var deviceToken = status['deviceToken'];
 									console.warn('registerDevice: ' + deviceToken);
